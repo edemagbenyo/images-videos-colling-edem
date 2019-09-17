@@ -66,40 +66,47 @@
     margin-top: 0;
 }
 .main-video div.sub-content div.icons{
-    border-top:1px solid #555555;
+    /* border-top:1px solid #555555;
     display: block;
     float: left;
-    width: 100%;
+    width: 100%; */
 }
 div.icons{
-    position: relative;
-}
-div.icons .left{
-    position: absolute;
-    left: 0;
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
     width: 100%;
 }
-div.icons .left p{
+div.icons .left{
+    width: 70%;
+}
+div.icons .left button{
     display: inline-block;
     width: 10%;
-    font-size: 1rem;
+    font-size: .8rem;
     color: #555555;
     padding: 10px 0px;
+    background: none;
+    border:none;
 }
-div.icons .left p img{
+div.icons .left button img{
     width: 20%;
 }
-div.icons .right p{
+div.icons .right button{
     display: inline-block;
-    width: 10%;
+    width: 40%;
     font-size: 1rem;
     color: #555555;
+    background: none;
+    border:none;
+    
+}
+div.icons .right button img{
+    width: 20%;
 }
 div.icons .right{
-    display: block;
-    position: absolute;
-    right: 0;
+    width: 20%;
+    align-items: right;
 }
 
 .main-video video{
@@ -159,6 +166,7 @@ div.side-videos div p span{
     border-radius:2px;
     padding:0;
     position: relative;
+    border:1px solid #dddddd;
 }
 .subscribe button img{
     margin:5px 0;
@@ -171,5 +179,5 @@ div.side-videos div p span{
     color: #111111;
     position:absolute;
     right: 0;
-    padding: 4px;
+    padding: 9px;
 }
