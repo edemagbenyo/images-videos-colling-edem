@@ -13,41 +13,47 @@
 .logo {
   width: 20%;
 }
+
 .logo img {
   width: 75%;
 }
+
 .searchbar {
   width: 70%;
 }
-.search {
-}
+
 .search input {
   width: 80%;
   line-height: 1.5em;
   border-radius: 0;
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   padding: 7px;
 }
+
 .search button {
   width: 10%;
   border-radius: 0;
   padding: 7px;
 }
-.search button img {
-  width: 15px;
-}
-.signin {
-  width: 10%;
-}
+
 .signin img {
   width: 25%;
 }
+
+.search button img {
+  width: 15px;
+}
+
+.signin {
+  width: 10%;
+}
+
 .signin button {
   border-radius: 4px;
   background: #157ac6;
   padding: 10px;
   border: 0;
-  color: #ffffff;
+  color: #fff;
 }
 
 .videos {
@@ -56,50 +62,64 @@
   position: relative;
 }
 
-.main-video {
-  width: 70%;
-  float: left;
-  padding: 0 20px;
-  margin-top: 0;
-}
-.main-video div.sub-content div.icons {
-  /* border-top:1px solid #555555;
-    display: block;
-    float: left;
-    width: 100%; */
-}
 div.icons {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   width: 100%;
 }
+.main-video {
+  width: 70%;
+  float: left;
+  padding: 0 20px;
+  margin-top: 0;
+}
+
 div.icons .left {
   width: 70%;
 }
+
+.subscribe button {
+  background: #ff0;
+  color: white;
+  border-radius: 2px;
+  padding: 0;
+  position: relative;
+  border: 1px solid #ddd;
+}
+
+.subscribe button img {
+    margin: 5px 0;
+    width: 10%;
+}
+
 div.icons .left button {
   display: inline-block;
   width: 10%;
   font-size: 0.8rem;
-  color: #555555;
-  padding: 10px 0px;
+  color: #555;
+  padding: 10px 0;
   background: none;
   border: none;
 }
+
 div.icons .left button img {
   width: 20%;
 }
+
 div.icons .right button {
   display: inline-block;
   width: 40%;
   font-size: 1rem;
-  color: #555555;
+  color: #555;
   background: none;
   border: none;
 }
+
 div.icons .right button img {
   width: 20%;
 }
+
 div.icons .right {
   width: 20%;
   align-items: right;
@@ -108,37 +128,56 @@ div.icons .right {
 .main-video video {
   width: 100%;
 }
+
 .side-videos {
   width: 30%;
   margin-top: 0;
   float: left;
 }
+
 .side-videos div {
   display: block;
   width: 100%;
   float: left;
   margin: 0 0 10px 0;
 }
+
 div.side-videos div video {
   width: 50%;
   display: inline;
   float: left;
 }
+
+.sub-content p {
+  font-size: 1.5rem;
+}
+
+.subscribe p {
+  font-size: 1rem;
+}
+
 div.side-videos div p {
   width: 50%;
   display: inline;
   font-size: 0.9rem;
   padding: 5px;
 }
+
+.subscribe button span {
+    background: white;
+    color: #111;
+    position: absolute;
+    right: 0;
+    padding: 9px;
+}
+
 div.side-videos div p span {
   display: block;
   font-size: 12px;
-  color: #777777;
+  color: #777;
   margin: 5px;
 }
-.sub-content p {
-  font-size: 1.5rem;
-}
+
 .owner {
   color: white;
   padding: 10px;
@@ -147,32 +186,9 @@ div.side-videos div p span {
   height: 50px;
   float: left;
 }
+
 .subscribe {
   width: 80%;
   float: left;
   margin-left: 10px;
-}
-.subscribe p {
-  font-size: 1rem;
-}
-.subscribe button {
-  background: #ff0000;
-  color: white;
-  border-radius: 2px;
-  padding: 0;
-  position: relative;
-  border: 1px solid #dddddd;
-}
-.subscribe button img {
-  margin: 5px 0;
-  width: 10%;
-  /* position:absolute; */
-  /* left:0; */
-}
-.subscribe button span {
-  background: white;
-  color: #111111;
-  position: absolute;
-  right: 0;
-  padding: 9px;
 }
