@@ -68,6 +68,7 @@ div.icons {
   flex-direction: row;
   width: 100%;
 }
+
 .main-video {
   width: 70%;
   float: left;
@@ -89,8 +90,8 @@ div.icons .left {
 }
 
 .subscribe button img {
-    margin: 5px 0;
-    width: 10%;
+  margin: 5px 0;
+  width: 10%;
 }
 
 div.icons .left button {
@@ -164,11 +165,11 @@ div.side-videos div p {
 }
 
 .subscribe button span {
-    background: white;
-    color: #111;
-    position: absolute;
-    right: 0;
-    padding: 9px;
+  background: white;
+  color: #111;
+  position: absolute;
+  right: 0;
+  padding: 9px;
 }
 
 div.side-videos div p span {
