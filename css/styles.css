@@ -81,7 +81,7 @@ div.icons .left {
 }
 
 .subscribe button {
-  background: #ff0;
+  background: #ff4700;
   color: white;
   border-radius: 2px;
   padding: 0;
@@ -92,6 +92,12 @@ div.icons .left {
 .subscribe button img {
   margin: 5px 0;
   width: 10%;
+}
+
+.subscribe span{
+  font-size: 1.4em;
+  float: right;
+  border-bottom: 2px solid rgb(22, 122, 198);
 }
 
 div.icons .left button {
@@ -170,6 +176,8 @@ div.side-videos div p {
   position: absolute;
   right: 0;
   padding: 9px;
+  padding-bottom: 0px;
+  border-bottom-width: 0px;
 }
 
 div.side-videos div p span {
