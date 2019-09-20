@@ -21,7 +21,7 @@
   margin-bottom: 12px;
 }
 
- .youtube {
+.youtube {
   width: 50%;
   height: auto;
 }
@@ -39,7 +39,7 @@
 }
 
 .search button {
-  width:10%;
+  width: 10%;
   border-radius: 0;
   padding: 7px;
   float: right;
@@ -48,7 +48,7 @@
 .signin img {
   width: 15%;
   float: left;
-  margin-left:50px;
+  margin-left: 50px;
 }
 
 .search button img {
@@ -65,7 +65,7 @@
   padding: 10px;
   border: 0;
   color: #fff;
-  float:right;
+  float: right;
   margin-right: 50px;
 }
 
