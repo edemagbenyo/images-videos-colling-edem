@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,61 +8,106 @@
     <link rel="stylesheet" href="./css/styles.css">
     <title>Youtube</title>
 </head>
+
 <body>
-    <header id="header">
-        <div id="logo">
-            <img src="./images/youtube.webp" alt="logo">
+    <header class="header">
+        <div class="logo">
+            <img class="menu" src="./images/menu.png">
+            <img  class="youtube" src="./images/youtube.webp" alt="logo">
         </div>
-        <div id="searchbar">
-            <form action="" id="search">
+        <div class="searchbar">
+            <form action="Post" class="search">
                 <input type="search">
                 <button>
                     <img src="./images/search-icon.png" alt="search">
                 </button>
             </form>
         </div>
-        <div id="signin">
+        <div class="signin">
             <img src="./images/upload-icon.png" alt="signin">
             <button>Sign in</button>
         </div>
     </header>
-    <section id="videos">
+    <main class="videos">
         <div class="main-video">
-           <video src="https://www.youtube.com/watch?v=ZnuwB35GYMY" controls>
-               <p>Your browser does not curently recognize any of the video format available 
-                <a href="#">click here to visit frequently asked questions</a></p>
-           </video>
-           <div class="sub-content">
-               <p>Contributing to Open Source Part 1: The Easy Way</p>
-               <div class="owner">
+            <video src="videos/test.mp4" controls>
+                <p>Your browser does not curently recognize any of the video format available
+                    <a href="#">click here to visit frequently asked questions</a></p>
+            </video>
+            <div class="sub-content">
+                <p>Contributing to Open Source Part 1: The Easy Way</p>
+                <div class="owner">
                     <p>T</p>
-               </div>
-               <div class="subscribe">
-                   <p>The Odin Project <br> <button>Subscribe</button><span class="count">799</span></p>
-               </div>
-           </div>
+                </div>
+                <div class="subscribe">
+                    <p>The Odin Project</p>
+
+                    
+                    <button>
+                        <img src="./images/youtube-icon.png" alt="youtube icon"> Subscribe
+                        <span>799</span>
+                    </button>
+                    <span>50,000 views</span>
+                    <hr>
+                </div>
+
+                <div style="overflow: hidden;"></div>
+                <div class="icons">
+                    <div class="left">
+                        <button><img src="./images/add-icon.png" alt=""> Add to</button>
+                        <button><img src="./images/share-icon.png" alt=""> Share</button>
+                        <button><img src="./images/more-icon.png" alt=""> More</button>
+                    </div>
+                    <div class="right">
+                        <button><img src="./images/up-icon.png" alt="thumbs-up"> 123</button>
+                        <button><img src="./images/down-icon.png" alt="thumbs-down"> 90</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="side-videos">
             <div>
-                <video src="https://www.youtube.com/watch?v=ZnuwB35GYMY" controls>
-                    <p>Your browser does not curently recognize any of the video format available 
-                    <a href="#">click here to visit frequently asked questions</a></p>
+                <video src="videos/test.mp4" controls>
+                    <p>Your browser does not curently recognize any of the video format available
+                        <a href="#">click here to visit frequently asked questions</a></p>
                 </video>
                 <p>Contributing to open source<span>The Odin Project<br> 29,985 views</span></p>
             </div>
-            
+
             <div>
-                <video src="https://www.youtube.com/watch?v=ZnuwB35GYMY" controls>
-                    <p>Your browser does not curently recognize any of the video format available 
-                    <a href="#">click here to visit frequently asked questions</a></p>
+                <video src="videos/test.mp4" controls>
+                    <p>Your browser does not curently recognize any of the video format available
+                        <a href="#">click here to visit frequently asked questions</a></p>
+                </video>
+                <p>Contributing to open source<span>The Odin Project<br> 29,985 views</span></p>
+            </div>
+            <div>
+                <video src="videos/test.mp4" controls>
+                    <p>Your browser does not curently recognize any of the video format available
+                        <a href="#">click here to visit frequently asked questions</a></p>
+                </video>
+                <p>Contributing to open source<span>The Odin Project<br> 29,985 views</span></p>
+            </div>
+            <div>
+                <video src="videos/test.mp4" controls>
+                    <p>Your browser does not curently recognize any of the video format available
+                        <a href="#">click here to visit frequently asked questions</a></p>
+                </video>
+                <p>Contributing to open source<span>The Odin Project<br> 29,985 views</span></p>
+            </div>
+            <div>
+                <video src="videos/test.mp4" controls>
+                    <p>Your browser does not curently recognize any of the video format available
+                        <a href="#">click here to visit frequently asked questions</a></p>
                 </video>
                 <p>Contributing to open source<span>The Odin Project<br> 29,985 views</span></p>
             </div>
         </div>
-    </section>
-    <footer id="footer">
-        
+    </main>
+    <footer class="footer">
+
     </footer>
 </body>
+
 </html>
