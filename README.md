@@ -22,3 +22,8 @@ Open your terminal in your working folder and execute the following command
 Here is the link to the live version of this project	
 [here](https://rawcdn.githack.com/edemagbenyo/images-videos-collins-edem/8749c5c20fd665623673327e159868e8a6f34916/index.html)
 
+
+## Things learnt
+
+How to embed videos and images to a web page.
+page structure and positioning
